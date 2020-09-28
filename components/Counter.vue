@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-button @click="add">{{ counter }}</b-button>
+    <button @click="add">{{ counter }}</button>
   </div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
     add() {
       this.counter++
     }
-  }
+  },
 }
 </script>
 
