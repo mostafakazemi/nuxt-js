@@ -1,15 +1,13 @@
 <template>
   <div class="d-flex">
-    <counter class="mx-auto"/>
+    <counter class="mx-auto" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "index.vue"
+  name: "IndexVue",
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
